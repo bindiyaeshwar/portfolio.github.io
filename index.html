@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!----------------head---------------------->
+    <head>
+        <meta charset="UTF=8">
+        <meta http-equiv="'X-UA-Compatible" content="'IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BINDIYA ESHWAR</title>
+
+        <!----------linking css file, special icons file, javascript file---------->
+        <link rel="stylesheet" href="style.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>     
+        
+    </head>
+    <!---------------body------------------>
+    <body>
+      
+      <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <!----------------navigation bar------------->
+        <nav class="navbar">
+            <a href="#home" style="--i:1" class="active">Home</a>
+            <a href="#about" style="--i:2">About</a>
+            <a href="#services" style="--i:3">Skill</a>
+            <a href="#skills" style="--i:4">Portfolio</a>
+            <a href="#contact" style="--i:5">Contact</a>
+  
+        </nav>
+
+      </header>
+
+      <!------------home page content----------------->
+    <section class="home">
+        <div class="home-content">
+            <h3>Hello, It's Me  </h3>
+            <h1>Bindiya Eshwar</h1>
+            
+            <p>I'm a student, currently pursuing my Bachelor of Engineering 
+                <br> in the Department of Electronics and Instrumentation Engineering in Siddaganga Institute of Technology, Tumkur.</p></br>
+           
+                <!-----------social media handles------------>
+            <div class="home-sci">
+              <a href="#" style="--i:7"><i class='bx bxl-facebook'></i></a>
+              <a href="#" style="--i:8"><i class='bx bxl-instagram' ></i></a>
+              <a href="#" style="--i:9"><i class='bx bxl-whatsapp' ></i></a>
+              <a href="#" style="--i:10"><i class='bx bxl-linkedin-square' ></i></a>
+
+            </div>
+            <a href="#" class="btn-box">More About Me</a>
+
+            <!-----------------Resume report link---------------->
+            <button class="Resume" onclick="window.open('Resume.pdf','_blank')">Resume</button>
+        </div>
+      
+        <span class="home-imgHover"></span>
+    </section>
+
+    <!----------------about me ----------------->
+      <section class="about" id="about">
+        <div class="about-img">
+          <img src="about_me_pic.jpg">
+        </div>
+        <div class="about-text">
+          <h2>About<span>Me</span></h2>
+          <h4>Student!</h4>
+          <p>I am Bindiya Eshwar, from Tumkur. I am currently pursing my 3rd year from the Department of 
+            Electronics and Instrumentation Engineering in Siddaganga Institution of Technology, Tumkur.
+             My skills are Team work, Adaptability, Time management, Creativity and an aspiring mind, loyal and trustworthy. 
+             I am adaptable to job roles and a quick learner.
+             Drawing and sketching, Photo editing & Video creating, Badminton are few of my hobbies.</p>
+
+             <a href="#" class="btn-box">More About Me</a>
+        </div>
+      </section>
+
+      <!----------------services such as MY SKILLS-------------->
+      <section>
+        <div class="services" id="services">
+          <div class="container">
+            <h1 class="sub-title">My <span>Skills</span></h1>
+            <div class="services-list">
+              <div>
+                <i class='bx bx-code-alt' style='color:#00eeff'  ></i>
+                <h2>Web Development and Pogramming</h2>
+                <p>Portfolio website by using HTML, CSS and java script. </p>
+                    <a href="#" class="read">learn more</a>
+              </div>
+              <div>
+                <i class='bx bx-crop' style='color:#00eeff' ></i>
+                <h2>Video and photo Editing</h2>
+                <p>Using websites such as VN etc...</p>
+                    <a href="#" class="read">learn more</a>
+             </div>
+              <div>
+                <i class='bx bxl-sketch' style='color:#00eeff'  ></i>
+                <h2>Designing</h2>
+                <p>Using websites such as picsart, Canva etc..</p>
+                    <a href="#" class="read">learn more</a>           
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!---------------Activity points report------------->
+        <h1 class="sub-title">Activity<span>Points</span></h1>
+        <section>
+          <button class="Activity_points" onclick="window.open('activity_report.pdf','_blank')">Activity Report</button>
+
+        </section>
+  </section>
+     <!-----------------CONTACT DETAILS--------------->
+  <section class="contact" id="contact">
+    <div class="contact-text">
+      <h2>Contact <span>Me</span></h2>
+      <h4>Let's work together</h4>
+
+      <div class="contact-list">
+        <li><i class='bx bxs-send'></i>bindiyaeshwar@gmail.com</li>
+        <li><i class='bx bxs-phone'></i>9379087358</li>
+      </div>
+
+      <div class="contact-icons">
+        <a href=""><i class='bx bxl-facebook-circle'></i></a>
+        <a href=""><i class='bx bxl-twitter'></i></a>
+        <a href=""><i class='bx bxl-instagram'></i></a>
+        <a href=""><i class='bx bxl-linkedin-square'></i></a>
+      </div>
+    </div>
+    <div class="contact-form">
+      <form action="">
+        <input type="" placeholder="Enter Your Name" required>
+        <input type="email" placeholder="Enter Your Email" required>
+        <input type="" placeholder="Enter Your Subject">
+        <textarea name="" id="" cols="40" rows="10" placeholder="Enter Your Message" required></textarea>
+        <input type="Submit" value="Submit" class="send">
+      </form>
+    </div>
+  </section>
+
+  <!-----------------copyrights--------------->
+<div class="last-text">
+  <p>Developed ❤︎ by Bindiya Eshwar © 2024</p>
+</div>
+<a href="#" class="top"><i class='bx bx-up-arrow-alt'></i></a>
+
+<!-----------linking with java script file----------->
+  <script src="script.js"></script>
+</body>
+</html>
